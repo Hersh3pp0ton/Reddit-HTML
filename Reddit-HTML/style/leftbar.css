@@ -14,8 +14,8 @@
 }
 
 .sections-div {
-  border-bottom: solid 1px #3e4142;
   margin-right: 20px;
+  border-bottom: solid 1px #26282a;
   padding-bottom: 10px;
 }
 
@@ -26,6 +26,62 @@
   align-items: center;
 }
 
+.section-div:hover {
+  background-color: #181c1f;
+  border-radius: 10px;  
+}
+
 .leftbar-icon-img {
   width: 30px;
+}
+
+.custom-feeds-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #26282a;
+}
+
+.create-feed-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.create-feed-div:hover {
+  background-color: #181c1f;
+  border-radius: 10px;
+}
+
+.custom-feeds-p {
+  color: #748791;
+  font-size: 13px;
+}
+
+.create-feed-img {
+  width: 20px;
+  padding-right: 6px;
+}
+
+.create-feed-p {
+  font-size: 15px;
+}
+
+.recent-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #26282a;
+  margin-right: 20px;
+}
+
+.subreddit-icon {
+  border-radius: 50%;
+  width: 30px;
+  padding-right: 8px;
 }
