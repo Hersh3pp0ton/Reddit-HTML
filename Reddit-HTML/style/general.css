@@ -15,3 +15,8 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.central-bars {
+  display: flex;
+  flex-direction: row;
+}
